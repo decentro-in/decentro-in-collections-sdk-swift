@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.version = '1.0.2'
   s.source = { :git => 'https://github.com/decentro-in/decentro-in-collections-sdk-swift.git', :tag => 'v1.0.2-swift' }
   s.authors = 'decentro.tech'
-  s.license = 'MIT'
+  s.license = { :type => 'MIT', :file > 'LICENSE' }
   s.homepage = 'https://github.com/decentro-in/decentro-in-collections-sdk-swift/tree/master'
   s.summary = 'Decentro Swift SDK'
   s.source_files = 'Decentro/**/*.swift'
